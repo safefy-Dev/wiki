@@ -64,7 +64,7 @@ from . import util
 
 def edit_page(request, title):
     # Get the current content of the entry
-    content = util.get_entry(title)
+    content = util.get_entry1(title)
 
     # If the entry doesn't exist, show an error page
     if content is None:

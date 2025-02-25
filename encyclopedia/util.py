@@ -17,7 +17,7 @@ def list_entries():
 
 
 
-def get_entry(title):
+def get_entry1(title):
     """
     Retrieves an encyclopedia entry by its title. If no such
     entry exists, the function returns None.
